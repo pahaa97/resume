@@ -1,0 +1,340 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+form {
+    margin: 0;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color: #D8C2A6;
+    min-width: 308px;
+    max-width: 308px;
+    padding-top: 15px;
+}
+
+.info__wrapper h3 {
+    background-color: black;
+    color: white;
+    margin: 0 20px;
+    padding: 4px 20px;
+    font-size: 20px;
+}
+
+.contact__wrapper p {
+    margin: 10px 30px;
+    padding: 0 10px;
+}
+
+.logo__wrapper {
+    position: relative;
+    margin: 0 auto 15px;
+    width: 240px;
+    height: 240px;
+    border: 0;
+    text-align:center;
+}
+
+.logo__wrapper img {
+    border-radius: 100%;
+}
+
+.logo__wrapper input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 120px;
+    color: white;
+    white-space: break-spaces;
+    text-align: center;
+}
+
+.edit img {
+    filter: brightness(30%);
+}
+
+.container {
+    max-width: 890px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 8px 10px 12px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    background-color: #A1B9DE;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__list a, .menu__list span, .menu__list button {
+    color: #000000;
+    display: block;
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.main {
+    min-height: 700px;
+    padding: 0 20px;
+}
+
+.main__wrapper {
+    display: flex;
+}
+
+.menu__list li {
+    width: 100%;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+
+.content {
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.name__wrapper {
+    background-color: #323026;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 245px;
+}
+
+.name__wrapper h1 {
+    color: white;
+    padding: 6px 25px;
+    margin-bottom: 10px;
+}
+
+.name__wrapper h2 {
+    color: white;
+}
+
+.name__wrapper input {
+    text-align: center;
+}
+
+.profile__wrapper {
+    padding-top: 22px;
+}
+
+.profile__wrapper h3 {
+    padding: 5px;
+}
+
+.profile__wrapper p {
+    padding: 5px 5px;
+}
+
+.profile__wrapper textarea, .experience__wrapper textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.experience__wrapper {
+    padding-top: 22px;
+}
+
+.experience__wrapper h3 {
+    padding: 5px;
+}
+
+.experience__wrapper p {
+    padding: 5px;
+}
+
+.skills__wrapper .description {
+    padding-bottom: 80px;
+}
+
+.form__wrapper {
+    background-color: #D8C2A6;
+    max-width: 485px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 100px 0;
+}
+
+.form__group {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__group label {
+    margin-right: 30px;
+}
+
+.form__group input {
+    border: 2px solid rgba(0, 56, 255, 0.5);
+}
+
+.submit__wrapper {
+    margin-left: auto;
+    display: block;
+    border: 1px solid #899DBD;
+    background-color: #A1B9DE;
+    padding: 0 25px;
+}
+
+.login_form, .register_form {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contact__wrapper input, .skills__wrapper input {
+    display: block;
+    width: 80%;
+    margin: 8px 30px;
+    padding: 0 10px;
+}
+
+.description p {
+    margin: 10px 30px;
+    padding: 0 10px;
+}
+
+.education__wrapper textarea {
+    width: 80%;
+    height: 150px;
+    resize: none;
+    margin: 8px 30px;
+    padding: 0 10px;
+}
+
+.no_login {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.notifications {
+    width:100%;
+    height: 2000px;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    position:fixed;
+    top:0px;
+    left: 0px;
+    text-align: center;
+}
+
+.notifications .errors {
+    position: relative;
+    margin:40px auto 0px auto;
+    width:300px;
+    height: 200px;
+    padding:10px;
+    background-color: #f6c7c9;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notifications .success {
+    position: relative;
+    margin:40px auto 0px auto;
+    width:300px;
+    height: 200px;
+    padding:10px;
+    background-color: #bdd136;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notifications .errors h2, .notifications .success h2 {
+    padding-bottom: 20px;
+}
+
+.notifications .close_popup {
+    font-size: 18px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
